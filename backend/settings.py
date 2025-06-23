@@ -35,7 +35,7 @@ DEBUG = env.bool('DEBUG', default=False)
 GEMINI_KEY = env('GEMINI_KEY')
 GNEWS_KEY = env('GNEWS_KEY')
 
-ALLOWED_HOSTS = ['https://worldview-backend-f07g.onrender.com']
+ALLOWED_HOSTS = ['*', 'https://worldview-backend-f07g.onrender.com']
 
 
 # Application definition
